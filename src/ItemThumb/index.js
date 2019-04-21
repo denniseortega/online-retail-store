@@ -9,6 +9,11 @@ const ItemThumb => {
     );
 };
 
-ItemThum.propTypes = {
-    
-}
+ItemThumb.propTypes = {
+    alt: PropTypes.string,
+    title: PropTypes.string,
+    classes: Proptypes.string,
+    src: Proptypes.string.isRequired
+};
+
+export default ItemThumb;
