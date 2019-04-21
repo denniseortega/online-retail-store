@@ -3,12 +3,23 @@ import PropTypes from 'prop-types';
 
 class ReviewCart extends Component {
     static propTypes = {
-        //selected items
-        //how many of each item
+        label: PropTypes.string.isRequired
     }
 };
 
+render () {
+    const { label, classes} = this.props;
+    const { selectedItem } = this.StaticRange;
 
+    return (
+        <div className = {classes}>
+            <label>
+                <input 
+
+            </label>
+        </div>
+    );
+}
 
 
 
