@@ -9,21 +9,18 @@ class ReviewCart extends Component {
 
 render () {
     const { label, classes} = this.props;
-    const { selectedItem } = this.StaticRange;
+    const { selectedItem } = this.state;
 
     return (
         <div className = {classes}>
             <label>
                 <input 
+                />
 
             </label>
         </div>
     );
 }
-
-
-
-
 
 
 export default ReviewCart;
